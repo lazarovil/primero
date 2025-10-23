@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Primero programa.
 // This function receives an integer `n` and returns the result of adding
 // the number to itself (i.e. doubling the value).
 int double_number(int n) {

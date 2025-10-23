@@ -12,6 +12,7 @@ int double_number(int n) {
 // and prints the result.
 int main(void) {
     int x; 
+    int mimatriz[10][10];
     printf("Enter an integer: ");
     if (scanf("%d", &x) != 1) {
         
@@ -31,6 +32,22 @@ int main(void) {
         printf("your result is %d\n", result);               
     }
 
-    return 0;
+    
 
+    for (int i = 0; i < 10; i++) {
+        for(int j = 0; j < 10; j++) {
+                mimatriz[i][j] = 2;
+        }
+    }
+    
+    
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+        printf("%2d ", mimatriz[i][j]);  // %2d ayuda a alinear columnas
+    }
+    printf("\n");
+    }
+    
+    return 0;
 }
+

@@ -1,0 +1,28 @@
+# Compiled Object Files
+*.o
+
+# Executables
+*.exe
+a.out
+
+# Libraries (if not intended for version control)
+*.lib
+*.so
+*.dll
+
+# Debugging and Temporary Files
+*.dSYM/
+*.log
+*.tmp
+*.bak
+*~
+
+# Build directories (if used)
+/build/
+/bin/
+/obj/
+
+# Editor-specific files (e.g., Visual Studio Code, Vim, Emacs)
+.vscode/
+*.swp
+.DS_Store
